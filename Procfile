@@ -1,1 +1,1 @@
-worker: python movieapp.py
+web: sh setup.sh && streamlit run movieapp.py
